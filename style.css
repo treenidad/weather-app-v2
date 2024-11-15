@@ -17,11 +17,21 @@ body {
     padding: 0;
 }
 
+form {
+    background-color: #fff;
+}
+
+figcaption {
+    font-size: 28px;
+    color: #fff;
+}
+
 main {
     width: 300px;
     height: max-content;
     min-height: 300px;
-    background-color: #f7f7f7;
+    /* background-color: #ffffff; */
+    background: linear-gradient(135deg, #00feba, #5b548a);
     border-radius: 30px;
     box-shadow: 0 30px 50px #5553;
     padding: 30px;
@@ -73,6 +83,7 @@ main .temperature figcaption {
 
 main .description {
     padding: 10px 0 30px;
+    color: #fff;
 }
 
 main ul {

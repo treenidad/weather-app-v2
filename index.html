@@ -10,20 +10,19 @@
 <body>
     <main>
         <form action="">
-            <input type="text" autocomplete="off" id="valueSearch">
+            <input type="text" autocomplete="off" id="valueSearch" placeholder="Enter City Name">
             <button><i class="fa-solid fa-magnifying-glass"></i></button>
         </form>
 
         <section class="result">
             <figure class="name" id="city">
-                <figcaption>London</figcaption>
-                <img src="https://flagsapi.com/GB/shiny/32.png" alt="">
+                <figcaption>City Name</figcaption>
+                <!-- <img src="https://flagsapi.com/GB/shiny/32.png" alt=""> -->
             </figure>
             <figure class="temperature" id="temperature">
                 <img src="https://openweathermap.org/img/wn/10d@4x.png" alt="">
                 <figcaption>
-                    <span>32</span>
-                    <sup>o</sup>
+                    <span>32°F</span>
                 </figcaption>
             </figure>
             <p class="description">
@@ -42,9 +41,9 @@
                     <span id="humidity">55</span>%
                 </li>
                 <li>
-                    <span>Pressure</span>
-                    <i class="fa-solid fa-gauge"></i>
-                    <span id="pressure">1001</span>hPa
+                    <span>Wind</span>
+                    <i class="fa-solid fa-wind"></i>
+                    <span id="wind">15</span> mph
                 </li>
             </ul>
         </section>
