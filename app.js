@@ -39,30 +39,6 @@ const searchWeather = () => {
         humidity.innerText = data.main.humidity;
         wind.innerText = Math.round(data.wind.speed);
         // pressure.innerText = data.main.pressure;
-
-        // Determine the appropriate weather icon to show.
-        // if (data.weather[0].main == "Clouds") {
-        //   if (data.weather[0].icon == "01d")
-        //     temperature.querySelector("img").src =
-        //       "https://openweathermap.org/img/wn/02d@4x.png";
-        // } else if (data.weather[0].main == "Clear") {
-        //   temperature.querySelector("img").src =
-        //     "https://openweathermap.org/img/wn/01d@4x.png";
-        // } else if (data.weather[0].main == "Rain") {
-        //   temperature.querySelector("img").src =
-        //     "https://openweathermap.org/img/wn/10d@4x.png";
-        // } else if (data.weather[0].main == "Drizzle") {
-        //   temperature.querySelector("img").src =
-        //     "https://openweathermap.org/img/wn/09d@4x.png";
-        // } else if (data.weather[0].main == "Mist") {
-        //   temperature.querySelector("img").src =
-        //     "https://openweathermap.org/img/wn/50d@4x.png";
-        // } else if (data.weather[0].main == "Snow") {
-        //   temperature.querySelector("img").src =
-        //     "https://openweathermap.org/img/wn/13d@4x.png";
-        // }
-
-        // document.querySelector("main").style.display = "none";
       } else {
         // false
         main.classList.add("error");
